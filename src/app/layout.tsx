@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import {ReactNode} from "react";
+import {Header} from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "Trello Clone",
@@ -12,7 +13,13 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode}>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+
+        <main>
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
