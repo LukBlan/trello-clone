@@ -12,10 +12,6 @@ const config: Config = {
       transitionProperty: {
         'max-height': 'max-height'
       },
-
-      dropShadow: {
-        "blue-shadow": "0px 0px 1px blue"
-      }
     },
 
     colors: {

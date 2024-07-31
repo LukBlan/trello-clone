@@ -4,7 +4,7 @@ function MobileIcon({open, onClick} : {open: boolean, onClick: () => void}) {
   const animatedClass = open ? "animate" : ""
 
   return (
-    <button className={`hamburgerMenu ${animatedClass} md:hidden gap-1.5`} onClick={onClick}>
+    <button className={`hamburgerMenu ${animatedClass} flex flex-col md:hidden gap-1.5`} onClick={onClick}>
       <span className="firstLine menuIconLine"></span>
       <span className="secondLine menuIconLine"></span>
       <span className="thirdLine menuIconLine"></span>
