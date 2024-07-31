@@ -8,13 +8,13 @@ import {MobileMenu} from "@/components/Header/MobileMenu";
 
 function Header() {
   return (
-    <nav className="flex justify-center items-center p-4 shadow-lg">
-      <div className="flex items-center">
+    <nav className="relative flex justify-between items-center p-4 shadow-lg">
+      <div className="flex items-center gap-2">
         <SvgTrello />
         <h1>Trello Clone</h1>
       </div>
 
-      <HeaderLinkBar className="hidden md:flex" />
+      <HeaderLinkBar className="hidden md:flex" linkStyles="" />
 
       <MobileMenu />
 

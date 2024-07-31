@@ -1,11 +1,11 @@
-function HeaderLinkBar({className} : {className: string}) {
+function HeaderLinkBar({className, linkStyles} : {className: string, linkStyles: string}) {
   return (
     <ul className={className}>
-      <li>Features</li>
-      <li>Solutions</li>
-      <li>Plans</li>
-      <li>Pricing</li>
-      <li>Resources</li>
+      <li className={linkStyles}>Features</li>
+      <li className={linkStyles}>Solutions</li>
+      <li className={linkStyles}>Plans</li>
+      <li className={linkStyles}>Pricing</li>
+      <li className={linkStyles}>Resources</li>
     </ul>
   )
 }
