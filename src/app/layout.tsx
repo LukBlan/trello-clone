@@ -8,14 +8,11 @@ export const metadata: Metadata = {
   description: "Trello clone developed in Next.js",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: ReactNode}>) {
+function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
         <Header />
-
         <main>
           {children}
         </main>
@@ -23,3 +20,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootLayout
