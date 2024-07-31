@@ -1,0 +1,34 @@
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuIconLine {
+  width: 1.3rem;
+  height: 0.2rem;
+  background-color: rgb(23, 43, 77);
+  transition: all 0.3s;
+  border-radius: 2rem;
+}
+
+.firstLine {
+  transform-origin: left top;
+}
+
+.thirdLine {
+  transform-origin: left bottom;
+}
+
+.animate .firstLine {
+  transform: rotate(45deg);
+  width: 1.75rem;
+}
+.animate .thirdLine {
+  width: 1.75rem;
+  transform: rotate(-45deg);
+}
+
+.animate .secondLine {
+  opacity: 0;
+  width: 0;
+}

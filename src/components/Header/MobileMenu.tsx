@@ -12,7 +12,7 @@ function MobileMenu() {
   return (
     <>
       <MobileHeaderNavbar open={open} />
-      <MobileIcon onClick={toggleOpen}/>
+      <MobileIcon onClick={toggleOpen} open={open} />
     </>
 
   )
