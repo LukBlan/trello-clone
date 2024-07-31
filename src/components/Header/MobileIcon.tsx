@@ -1,8 +1,8 @@
 import {SvgHamburgerMenu} from "@/components/Svgs/SvgHamburgerMenu";
 
-function MobileIcon() {
+function MobileIcon({onClick} : {onClick: () => void}) {
   return (
-    <button>
+    <button className="md:hidden" onClick={onClick}>
       <SvgHamburgerMenu />
     </button>
   )

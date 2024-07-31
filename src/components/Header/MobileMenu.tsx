@@ -1,29 +1,18 @@
-import {HeaderLinkBar} from "@/components/Header/HeaderLinkBar";
-import Link from "next/link";
-import {GuessLogin} from "@/components/Login/GuessLogin";
+"use client"
+
 import MobileIcon from "@/components/Header/MobileIcon";
+import {useState} from "react";
+import {MobileHeaderNavbar} from "@/components/Header/MobileHeaderNavbar";
 
 function MobileMenu() {
-  const mobileLinksElements: string[] = [
-    "Features",
-    "Solutions",
-    "Plans",
-    "Pricing",
-    "Resources",
-  ]
+  const [open, setOpen] = useState(false)
+
+  const toggleOpen = () => setOpen(open => !open)
 
   return (
     <>
-      <ul className="absolute top-full flex flex-col md:hidden
-                    left-0 right-0 bg-white px-4 text-lg text-blue-dark font-semibold">
-        { mobileLinksElements.map(element =>
-          <li key={element} className="border-t py-4 border-black/15">{element}</li>)
-        }
-        <li className="flex py-4 border-t border-black/15"><GuessLogin /></li>
-        <li className="flex pb-4"><Link className="flex-1 text-center p-4 border border-blue" href="/login">Log In</Link></li>
-      </ul>
-
-      <MobileIcon />
+      <MobileHeaderNavbar open={open} />
+      <MobileIcon onClick={toggleOpen}/>
     </>
 
   )

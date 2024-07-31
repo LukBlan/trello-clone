@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 import {SvgTrello} from "@/components/Svgs/SvgTrello";
@@ -8,11 +7,15 @@ import {MobileMenu} from "@/components/Header/MobileMenu";
 
 function Header() {
   return (
-    <nav className="relative flex justify-between items-center p-4 shadow-lg">
-      <div className="flex items-center gap-2">
+    <nav className="relative flex justify-between items-center py-2 px-4 shadow-lg">
+      <header className="flex items-center gap-2">
         <SvgTrello />
-        <h1>Trello Clone</h1>
-      </div>
+
+        <div className="flex flex-col font-bold">
+          <p className="text-blue-opaque text-sm">Clone</p>
+          <h1 className="text-3xl leading-none text-blue-dark font-bold">Trello</h1>
+        </div>
+      </header>
 
       <HeaderLinkBar className="hidden md:flex" linkStyles="" />
 

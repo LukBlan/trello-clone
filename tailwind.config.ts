@@ -8,6 +8,12 @@ const config: Config = {
   ],
 
   theme: {
+    extend: {
+      transitionProperty: {
+        'max-height': 'max-height'
+      }
+    },
+
     colors: {
       "white": "white",
       "black": "black",
