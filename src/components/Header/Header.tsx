@@ -22,7 +22,7 @@ function Header() {
       <MobileMenu />
 
       <div className="hidden md:flex">
-        <Link href="/login">Login</Link>
+        <Link className="p-4 font-bold text-blue-dark" href="/login">Login</Link>
         <GuessLogin />
       </div>
     </nav>
