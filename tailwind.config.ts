@@ -10,7 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       transitionProperty: {
-        'max-height': 'max-height'
+        'mix-height': 'mix-height'
+      },
+
+      spacing: {
+        "full-nav": "calc(100vh - 66px)"
       },
 
       backgroundImage: {

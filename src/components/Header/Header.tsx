@@ -23,7 +23,7 @@ function Header() {
 
       <div className="hidden md:flex">
         <Link className="p-4 font-bold text-blue-dark" href="/login">Login</Link>
-        <GuessLogin />
+        <GuessLogin className="" />
       </div>
     </nav>
   )
