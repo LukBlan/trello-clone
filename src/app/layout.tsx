@@ -6,6 +6,9 @@ import {Header} from "@/components/Header/Header";
 export const metadata: Metadata = {
   title: "Trello Clone",
   description: "Trello clone developed in Next.js",
+  icons: {
+    icon: "/trello.svg"
+  }
 };
 
 function RootLayout({ children }: { children: ReactNode }) {

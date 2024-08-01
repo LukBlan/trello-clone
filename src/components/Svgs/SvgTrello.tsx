@@ -1,14 +1,32 @@
 function SvgTrello() {
   return (
-    <svg className="h-7 w-6 self-end fill-blue " viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-      <g id="Icons"  strokeWidth="1" fillRule="evenodd">
-        <g id="Color-" transform="translate(-200.000000, -760.000000)" >
-          <path d="M206,769 L206,796 C206,797.6575 207.3425,799 209,799 L218,799 C219.6575,799 221,797.6575 221,796 L221,769 C221,767.3425 219.6575,766 218,766 L209,766 C207.3425,766 206,767.3425 206,769 L206,769 Z M227,769 L227,784 C227,785.6575 228.3425,787 230,787 L239,787 C240.6575,787 242,785.6575 242,784 L242,769 C242,767.3425 240.6575,766 239,766 L230,766 C228.3425,766 227,767.3425 227,769 L227,769 Z M206,760 C202.6865,760 200,762.688 200,766 L200,802 C200,805.3135 202.688,808 206,808 L242,808 C245.3135,808 248,805.312 248,802 L248,766 C248,762.6865 245.312,760 242,760 L206,760 Z" id="Trello">
+  <svg className="h-7 w-6 self-end fill-blue" viewBox="0 0 32.00 32.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#217EF8" strokeWidth="0.00032">
+    <g id="SVGRepo_bgCarrier" strokeWidth="0" transform="translate(7.84,7.84), scale(0.51)">
+      <rect x="0" y="0" width="32.00" height="32.00" rx="0" fill="#ffffff" strokeWidth="0"/>
+    </g>
 
-          </path>
-        </g>
-      </g>
-    </svg>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="" strokeWidth="1.6640000000000001">
+      <path fillRule="evenodd" clipRule="evenodd" d="M25.0133 4H7.0019C5.344 4 4 5.34315 4 7V25C4 26.6569 5.344 28 7.0019 28H25.0133C26.6653 27.9916 28 26.6509 28 25V7C28 5.34907 26.6653 4.00838 25.0133 4ZM9 7H13C14.1046 7 15 7.89543 15 9V23C15 24.1046 14.1046 25 13 25H9C7.89543 25 7 24.1046 7 23V9C7 7.89543 7.89543 7 9 7ZM23 7H19C17.8954 7 17 7.89543 17 9V16C17 17.1046 17.8954 18 19 18H23C24.1046 18 25 17.1046 25 16V9C25 7.89543 24.1046 7 23 7Z" fill="url(#paint0_linear_87_7663)"/>
+
+      <defs>
+        <linearGradient id="paint0_linear_87_7663" x1="16.0076" y1="28" x2="16.0076" y2="4" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#217EF8"/> <stop offset="0.51698" stopColor="#217EF8"/>
+          <stop offset="1" stopColor="#217EF8"/>
+        </linearGradient>
+      </defs>
+    </g>
+
+    <g id="SVGRepo_iconCarrier"> <path fillRule="evenodd" clipRule="evenodd" d="M25.0133 4H7.0019C5.344 4 4 5.34315 4 7V25C4 26.6569 5.344 28 7.0019 28H25.0133C26.6653 27.9916 28 26.6509 28 25V7C28 5.34907 26.6653 4.00838 25.0133 4ZM9 7H13C14.1046 7 15 7.89543 15 9V23C15 24.1046 14.1046 25 13 25H9C7.89543 25 7 24.1046 7 23V9C7 7.89543 7.89543 7 9 7ZM23 7H19C17.8954 7 17 7.89543 17 9V16C17 17.1046 17.8954 18 19 18H23C24.1046 18 25 17.1046 25 16V9C25 7.89543 24.1046 7 23 7Z" fill="url(#paint0_linear_87_7663)"/>
+      <defs>
+      <linearGradient id="paint0_linear_87_7663" x1="16.0076" y1="28" x2="16.0076" y2="4" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#217EF8"/>
+        <stop offset="0.51698" stopColor="#217EF8"/>
+        <stop offset="1" stopColor="#217EF8"/>
+      </linearGradient>
+    </defs>
+    </g>
+
+  </svg>
   )
 }
 
