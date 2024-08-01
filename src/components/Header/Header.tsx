@@ -7,12 +7,12 @@ import {MobileMenu} from "@/components/Header/MobileMenu";
 
 function Header() {
   return (
-    <nav className="sticky top-0 bg-white flex justify-between items-center py-2 px-4 shadow-lg">
+    <nav className="sticky top-0 bg-white flex justify-between items-center py-2 px-4 shadow-lg md:py-0">
       <header className="flex items-center gap-2">
         <SvgTrello />
 
         <div className="flex flex-col font-bold">
-          <p className="text-blue-opaque text-sm">Clone</p>
+          <p className="text-blue-opaque text-sm leading-none">Clone</p>
           <h1 className="text-3xl leading-none text-blue-dark font-bold">Trello</h1>
         </div>
       </header>
@@ -21,9 +21,9 @@ function Header() {
 
       <MobileMenu />
 
-      <div className="hidden md:flex">
+      <div className="hidden md:flex items-center">
         <Link className="p-4 font-bold text-blue-dark" href="/login">Login</Link>
-        <GuessLogin className="" />
+        <GuessLogin className="py-4 px-8" />
       </div>
     </nav>
   )

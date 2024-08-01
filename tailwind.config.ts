@@ -14,7 +14,7 @@ const config: Config = {
       },
 
       spacing: {
-        "full-nav": "calc(100vh - 66px)"
+        "full-nav": "calc(100vh - 60px)"
       },
 
       backgroundImage: {
