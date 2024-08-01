@@ -1,6 +1,6 @@
-function HeaderLinkBar({className, linkStyles} : {className: string, linkStyles: string}) {
+function HeaderLinkBar({ linkStyles } : {linkStyles: string}) {
   return (
-    <ul className={className}>
+    <ul className="hidden md:flex gap-8 mr-auto">
       <li className={linkStyles}>Features</li>
       <li className={linkStyles}>Solutions</li>
       <li className={linkStyles}>Plans</li>
