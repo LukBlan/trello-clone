@@ -1,5 +1,9 @@
+import {HomeSignUpPresentation} from "@/components/HomeSignUpPresentation/HomeSignUpPresentation";
+
 function HomePage() {
-  return <p>Home</p>
+  return (
+    <HomeSignUpPresentation />
+  )
 }
 
 export default  HomePage

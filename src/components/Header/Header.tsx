@@ -7,7 +7,7 @@ import {MobileMenu} from "@/components/Header/MobileMenu";
 
 function Header() {
   return (
-    <nav className="relative flex justify-between items-center py-2 px-4 shadow-lg">
+    <nav className="sticky top-0 bg-white flex justify-between items-center py-2 px-4 shadow-lg">
       <header className="flex items-center gap-2">
         <SvgTrello />
 

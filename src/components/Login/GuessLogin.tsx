@@ -1,5 +1,5 @@
-function GuessLogin() {
-  return <button className="bg-blue text-white flex-1 p-4 font-bold">Guess</button>
+function GuessLogin({className}: {className: string}) {
+  return <button className={`bg-blue text-white flex-1 font-bold ${className}`}>Guess</button>
 }
 
 export { GuessLogin }

@@ -12,6 +12,10 @@ const config: Config = {
       transitionProperty: {
         'max-height': 'max-height'
       },
+
+      backgroundImage: {
+        "wave": "linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180));"
+      }
     },
 
     colors: {
