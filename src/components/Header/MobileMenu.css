@@ -1,6 +1,6 @@
 .menuIconLine {
   width: 1.3rem;
-  height: 0.2rem;
+  height: 0.13rem;
   background-color: rgb(23, 43, 77);
   transition: all 0.3s;
   border-radius: 2rem;
@@ -16,10 +16,10 @@
 
 .animate .firstLine {
   transform: rotate(45deg);
-  width: 1.73rem;
+  width: 1.5rem;
 }
 .animate .thirdLine {
-  width: 1.73rem;
+  width: 1.5rem;
   transform: rotate(-45deg);
 }
 
