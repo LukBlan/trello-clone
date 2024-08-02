@@ -13,7 +13,6 @@ function CarouselControlBox({carouselItems, currentIndex, changeIndex} :
 
         <li key={itemIndex} onClick={() => changeIndex(itemIndex)}
             className={`transition-all duration-300 cursor-pointer w-6 h-4 bg-blue-dark rounded-full ${activeClass(itemIndex)}`}>
-
         </li>)
       }
     </ul>

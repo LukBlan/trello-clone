@@ -8,14 +8,14 @@ import {CarouselControlBox} from "@/components/Carousel/CarouselControlBox";
 
 function Carousel({carouselItems}: {carouselItems: CarouselItem[]}) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const carouselItemsAmount = carouselItems.length
-
   const changeIndex = (newIndex: number) => setCurrentIndex(newIndex)
-  console.log("1")
+
+  const transitionClasses = ["translate-0", "translate-100", "translate-200"]
+  const currentTransitionClass = transitionClasses[currentIndex]
 
   return (
     <>
-      <ul className="carousel">
+      <ul className={`carousel ${currentTransitionClass}`}>
         { carouselItems.map(item => <CarouselCard key={item.title} carouselItem={item} />) }
       </ul>
 

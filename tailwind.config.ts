@@ -25,6 +25,7 @@ const config: Config = {
     colors: {
       "white": "white",
       "black": "black",
+      "sky-blue": "rgb(0, 199, 229)",
       "blue": "rgb(0, 101, 255)",
       "blue-opaque": "rgb(7, 71, 166)",
       "blue-dark": "rgb(23, 43, 77)",

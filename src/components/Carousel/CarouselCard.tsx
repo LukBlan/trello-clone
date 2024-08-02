@@ -3,12 +3,12 @@ import {CarouselItem} from "@/lib/types";
 function CarouselCard({carouselItem}: {carouselItem: CarouselItem}) {
   const {title, description, url} = carouselItem;
   return (
-    <li>
+    <li className="flex flex-col gap-4">
       <img src={url} />
 
-      <div>
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className="flex flex-col gap-2 border-l-8 rounded border-sky-blue p-4 shadow-sm">
+        <h3 className="font-bold">{title}</h3>
+        <p className="font-medium">{description}</p>
       </div>
     </li>
   )
