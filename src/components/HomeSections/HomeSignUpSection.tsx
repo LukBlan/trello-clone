@@ -1,6 +1,6 @@
 import {GuessLogin} from "@/components/Login/GuessLogin";
 
-function HomeSignUpPresentation() {
+function HomeSignUpSection() {
   return (
     <section className="grid lg:grid-cols-2 pt-24 justify-center bg-wave p-4 min-h-screen gap-8">
       <div className="flex flex-col gap-8 text-white text-center">
@@ -20,4 +20,4 @@ function HomeSignUpPresentation() {
   )
 }
 
-export { HomeSignUpPresentation }
+export { HomeSignUpSection }

@@ -1,8 +1,13 @@
-import {HomeSignUpPresentation} from "@/components/HomeSignUpPresentation/HomeSignUpPresentation";
+import {HomeSignUpSection} from "@/components/HomeSections/HomeSignUpSection";
+import {ProductivitySection} from "@/components/HomeSections/ProductivitySection";
 
 function HomePage() {
   return (
-    <HomeSignUpPresentation />
+    <>
+      <HomeSignUpSection />
+      <ProductivitySection />
+    </>
+
   )
 }
 
