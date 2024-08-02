@@ -8,7 +8,7 @@ function MobileIcon() {
   const animatedClass = navOpen ? "animate" : ""
 
   return (
-    <button className={`${animatedClass} flex flex-col md:hidden gap-1.5`} onClick={toggleOpen}>
+    <button className={`${animatedClass} flex flex-col lg:hidden gap-1.5`} onClick={toggleOpen}>
       <span className="firstLine menuIconLine"></span>
       <span className="secondLine menuIconLine"></span>
       <span className="thirdLine menuIconLine"></span>
