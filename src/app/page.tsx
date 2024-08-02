@@ -1,3 +1,5 @@
+"use client"
+
 import {HomeSignUpSection} from "@/components/HomeSections/HomeSignUpSection";
 import {ProductivitySection} from "@/components/HomeSections/ProductivitySection";
 

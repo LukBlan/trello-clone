@@ -1,0 +1,14 @@
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100vw - 2rem));
+  gap: 1rem;
+  overflow: clip;
+}
+
+.carousel > li {
+  transition: all 0.3s;
+}
+
+.carousel.active > li {
+  transform: translateX(-100%);
+}
