@@ -9,7 +9,7 @@ function MobileHeaderLinks({ children }: { children: ReactNode}) {
 
   return (
     <ul className={`${openClass} h-0 transition-min-height ease-in-out duration-[400ms] absolute top-full flex flex-col 
-                  md:hidden left-0 right-0 bg-white px-4 text-lg text-blue-dark font-semibold overflow-auto`}>
+                  lg:hidden left-0 right-0 bg-white px-4 text-lg text-blue-dark font-semibold overflow-auto`}>
       { children }
     </ul>
   )
