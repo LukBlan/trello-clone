@@ -14,3 +14,7 @@
 body {
   min-height: 100vh;
 }
+
+.wave-bg-image {
+  background: url("/wave.svg") center bottom / 100% 15% no-repeat, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180));
+}
