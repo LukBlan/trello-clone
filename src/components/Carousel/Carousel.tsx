@@ -19,10 +19,7 @@ function Carousel({carouselItems}: {carouselItems: CarouselItem[]}) {
         { carouselItems.map(item => <CarouselCard key={item.title} carouselItem={item} />) }
       </ul>
 
-      <CarouselControlBox carouselItems={carouselItems}
-                          currentIndex={currentIndex}
-                          changeIndex={changeIndex}
-      />
+      <CarouselControlBox carouselItems={carouselItems} currentIndex={currentIndex} changeIndex={changeIndex} />
     </>
 
 

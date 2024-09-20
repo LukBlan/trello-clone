@@ -7,6 +7,7 @@ function CarouselControlBox({carouselItems, currentIndex, changeIndex} :
 ) {
 
   const activeClass = (index: number) => currentIndex == index ? "w-full bg-gray" : ""
+
   return (
     <ul className="flex gap-2 self-center min-w-40 justify-center">
       { carouselItems.map((carouselItem, itemIndex) =>
